@@ -1,0 +1,101 @@
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section form {
+    display: flex;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer-section form input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    margin: 0; /* Remove margin */
+    margin-right: 5px; /* Add small right margin to create space */
+    padding-right: 0; /* Remove right padding to ensure seamless connection */
+  }
+  
+  .footer-section form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffc107;
+    color: #212529;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    margin: 0; /* Remove margin */
+  }
+  
+  .footer-section form button:hover {
+    background-color: #e0a800;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px; /* Add horizontal spacing between icons */
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .social-icons a:first-child {
+    margin-left: 0; /* Remove margin from the first icon */
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
